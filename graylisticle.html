@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Color Meaning</title>
+		<style>
+			@keyframes move {
+			0%   {left:0px}
+			50%  {left:200px}
+			100%   {left:0px}	
+			}
+			li{
+			position: relative;
+			animation-name: move;
+			animation-duration: 4s;
+			animation-iteration-count: infinite;
+			text-shadow: 1px 1px black;
+			}
+			#red{
+				color: red;
+				animation-delay: 0s;
+			}
+			#pink{
+				color: pink;
+				animation-delay: 1s;
+			}
+			#blue{
+				color: blue;
+				animation-delay: 2s;
+			}
+			#white{
+				color: white;
+				animation-delay: 3s;
+			}
+			#black{
+				color: black;
+				animation-delay: 4s;
+			}
+		</style>
+	</head>
+	<body style="background-color: antiquewhite;">
+		<header>
+			<h1>The True Meanings of <span style="color:red;text-shadow: 1px 1px black;">C</span><span style="color:pink;text-shadow: 1px 1px black;">o</span><span style="color:blue;text-shadow: 1px 1px black;">l</span><span style="color:white;text-shadow: 1px 1px black;">o</span><span style="color:black;text-shadow: 1px 1px black;">r</span></h1>
+			<h5><i>Youll never guess what messages you've been sending people</i></h5>
+			<h6>(may or may not be true)</h6>
+		</header>
+		<figure>
+			<img src="https://freesvg.org/img/HUE-16-gradientl.png" alt="Color Wheel" style="height: 60px; display: inline;">
+		</figure>
+		<article>
+			<ol reversed>
+				<li id="red"><b>Red</b> <img src="https://freesvg.org/img/zeimusu_Red_rose.png" style="height: 15px;"></li>
+					<p>Love, Anger, Health</p>
+				<li id="pink"><b>Pink</b></li>
+					<p>Harmony, Nurturing, Romance</p><br>
+				<li id="blue"><b>Blue</b><img src="https://freesvg.org/img/tomas-arad-water-drop.png" style="height: 15px;"></li>
+					<p>Responsibility</p><br>
+				<li id="white"><b>White</b></li>
+					<p>Newness</p>
+				<li id="black"><b>Black</b></li>
+					<p>Mourning</p>
+			</ol>
+		</article>
+	</body>
+</html>
